@@ -31,7 +31,8 @@ header {
 }
 
 
-h1 {
+h1, 
+h2 {
   color: #33333f;
   font-size: 1.3em;
 }
@@ -42,12 +43,45 @@ h1 {
   height: 10px;
   padding-top: 5px;
   margin-top: 35px;
+  margin-bottom: 30px;
 }
 
 .divider-white {
   background-color: white;
   height: 3px;
 }
+
+form {
+  padding-top: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+input, 
+select {
+  height: 50px;
+  background-color:#f2f2f2; 
+  font-family: 'Merriweather', serif;
+}
+
+:placeholder-shown {
+  text-align: right;
+  font-style: italic;
+  /*font-family: 'Merriweather', serif;*/
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+[name] {
+  width: 100%;
+  border-style: hidden;
+  border-radius: 5px;
+}
+  
 
 /* ================================= 
   Media Queries
