@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -35,7 +35,7 @@
           </div>
           <div class="row">
             <label for="phone">Phone Number</label>
-            <input type="text" id="phone" name="user_phone">
+            <input type="tel" id="phone" name="user_phone">
           </div>
           <div class="row">
             <label for="address">Street Address</label>
@@ -109,22 +109,23 @@
           </fieldset>
           <hr>
           <fieldset id="newsletter_fieldset">
-          <legend>Newsletter</legend>
-          <h2>Newsletter</h2>
-          <label>Select the newsletters you would like to receive</label><br><br>
-          <input type="checkbox" id="html_news" value="html_newsletter" name="newsletter">
-            <label for="html_news">HTML News</label><br><br>
-          <input type="checkbox" id="css_news" value="css_newsletter" name="newsletter">
-            <label for="css_news">CSS News</label><br><br>
-          <input type="checkbox" id="js_news" value="js_newsletter" name="newsletter">
-            <label for="js_news">Javascript News</label><br><br><br>
-          <label>Newsletter Format</label><br><br>
-          <input type="radio" id="html_format" value="html_format" name="format">
-            <label for="html_format">HTML</label><br><br>
-          <input type="radio" id="text_format" value="text_format" name="format">
-            <label for="text_format">Plain text</label><br><br><br>
-          <label>Other topics you'd like to hear about</label><br><br>
-          <textarea id="topics" name="user_topics" rows="6"></textarea>
+            <legend>Newsletter</legend>
+            <h2>Newsletter</h2>
+            <label>Select the newsletters you would like to receive</label><br><br>
+            <input type="checkbox" id="html_news" value="html_newsletter" name="newsletter">
+              <label for="html_news">HTML News</label><br><br>
+            <input type="checkbox" id="css_news" value="css_newsletter" name="newsletter">
+              <label for="css_news">CSS News</label><br><br>
+            <input type="checkbox" id="js_news" value="js_newsletter" name="newsletter">
+              <label for="js_news">Javascript News</label><br><br><br>
+            <label>Newsletter Format</label><br><br>
+            <input type="radio" id="html_format" value="html_format" name="format">
+              <label for="html_format">HTML</label><br><br>
+            <input type="radio" id="text_format" value="text_format" name="format">
+              <label for="text_format">Plain text</label><br><br><br>
+            <label>Other topics you'd like to hear about</label><br><br>
+            <textarea id="topics" name="user_topics" rows="6"></textarea>
+          </fieldset>
           <button type="submit">Sign Up</button>            
         </form>
       </main>
