@@ -165,4 +165,23 @@ footer {
     margin-top: 50px;
   }
   
+  .row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .row label {
+    flex-basis: 30%;
+  }
+  
+  .row input,
+  .row select {
+    flex-basis: 70%;
+  }
+  
+  #zip {
+    flex-basis: 30%;
+  }
+  
+  
 }
